@@ -1,0 +1,110 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.box
+{
+    max-width: 600px;
+    padding: 20px;
+    background-color: aliceblue;
+    margin: 50px auto;
+    box-shadow:black 10px 10px 15px;
+    border-radius: 15px;
+}
+
+.title
+{
+    font-size: 22px;
+}
+
+.formcontrol
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+label
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 0, 131);
+    margin-bottom: 4px;
+}
+
+.button
+{
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+
+button
+{
+    margin: 0px 10px;
+    background-color: orange;
+    border: black solid 2px;
+    color: red;
+    padding: 10px;
+}
+
+button:hover
+{
+    background-color: green;
+    color: white;
+    text-decoration:underline;
+}
+
+input:hover
+{
+    background-color: skyblue;
+    border-color: crimson;
+}
+
+select:hover
+{
+    background-color: skyblue;
+}
+
+textarea:hover
+{
+    background-color: skyblue;
+}
+
+input
+{
+    border: black solid 1.7px;
+    padding: 8px 0px;
+}
+
+select
+{
+    border: black solid 1.7px;
+    padding: 8px 0px;
+}
+
+
+textarea
+{
+    border: black solid 1.7px;
+    padding: 8px 0px;
+}
+
+.box h1 
+{
+   color: darkred;
+}
+
+hr{
+    margin: 15px 0px;
+}
